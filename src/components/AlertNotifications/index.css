@@ -1,0 +1,32 @@
+.alertNotificationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.alertNotificationHeading {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .alertNotificationHeading {
+    font-size: 34px;
+  }
+}
+
+.iconStyle {
+  width: 30px;
+  height: 30px;
+}
+.headingStyle {
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.paraStyle {
+  font-size: 19px;
+  font-weight: 600;
+  color: #475569;
+}

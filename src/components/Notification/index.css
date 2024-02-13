@@ -1,0 +1,33 @@
+.notificationContainer {
+  border-style: solid;
+  margin: 5px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  border-width: 2px;
+  border-color: #e5e5e5;
+}
+@media screen and (min-width: 768px) {
+  .notificationContainer {
+    width: 60%;
+    max-width: 600px;
+  }
+}
+.iconAnddiscriptionContainer {
+  display: flex;
+  max-width: 500px;
+}
+.closeIcon {
+  align-self: center;
+  height: 30px;
+  min-width: 30px;
+  color: #475569;
+  
+}
+.iconContainer {
+  width: 40px;
+  padding-top: 5px;
+  margin-right: 10px;
+}
